@@ -54,5 +54,15 @@ public class SolutionsTest  {
 
     }
 
+    @Test
+    public void lengthOfLongestSubstringTest() {
+
+        String str = "12345123456asdfgasqwertyuiopa";
+        //String str = "1112312";
+        int sol = s.lengthOfLongestSubstring(str);
+
+        //assertEquals(res, arr[sol[0]] + arr[sol[1]]);
+    }
+
 
 }
